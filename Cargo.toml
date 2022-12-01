@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "day1"
+]
+
+[workspace.package]
+version = "0.0.0"
+edition = "2021"
+
+# Minimum version with support for workspace inheritance
+rust-version = "1.64.0"
+
+repository = "https://github.com/jdno/aoc2022"
+
+# Advent of Code is a collection of small coding puzzles.
+publish = false
