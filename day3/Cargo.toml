@@ -1,0 +1,22 @@
+[package]
+name = "day3"
+
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+# See more keys and their definitions at
+# https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "part1"
+
+[[bin]]
+name = "part2"
+
+[dependencies]
+
+[dev-dependencies]
+rstest = "0.16.0"
